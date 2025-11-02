@@ -1,0 +1,11 @@
+:root{
+  --bg: #f4f4f4;
+  --fg: #121212;
+  --accent: #959100;
+  --muted: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{ background: var(--bg); color: var(--fg); }
+.container{ max-width: 920px; margin: 64px auto; padding: 24px; background:#fff; border-radius:12px; box-shadow:0 8px 28px rgba(0,0,0,.08);}
+h1{ font-size: 28px; margin-bottom: 12px; }
+p{ color: var(--muted); }
